@@ -1,4 +1,4 @@
-package com.github.pengpan;
+package io.github.pengpan;
 
 import static org.junit.Assert.assertTrue;
 
