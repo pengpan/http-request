@@ -66,14 +66,14 @@
             <!-- 提交到资料库的地址 -->
             <distributionManagement>
                 <repository>
-                    <id>ossrh</id>
+                    <id>oss</id>
                     <name>Nexus Release Repository</name>
-                    <url>https://s01.oss.sonatype.org/content/repositories/releases/</url>
+                    <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2</url>
                 </repository>
                 <snapshotRepository>
-                    <id>ossrh</id>
-                    <name>Sonatype Nexus Snapshots</name>
-                    <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+                    <id>oss</id>
+                    <name>Nexus Snapshot Repository</name>
+                    <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
                 </snapshotRepository>
             </distributionManagement>
             <build>
